@@ -1,0 +1,115 @@
+{
+    "tradingPairs": [
+      {
+        "bybitSymbol": "JTOUSDT",
+        "jupTokenID": "JTO",
+        "addy": "jtojtomepa8beP8AuQc6eXt5FriJwfFMwQx2v2f9mCL",
+        "enabled": true,
+        "bybitSell": true,
+        "arbThreshold": 1,
+        "slippageBps": 50,
+        "pricePrecision": 4,
+        "orderSizePrecision": 2
+      },
+      {
+        "bybitSymbol": "WENUSDT",
+        "jupTokenID": "WEN",
+        "addy": "WENWENvqqNya429ubCdR81ZmD69brwQaaBYY6p3LCpk",
+        "enabled": true,
+        "bybitSell": false,
+        "arbThreshold": 2,
+        "slippageBps": 50,
+        "pricePrecision": 2,
+        "orderSizePrecision": 3
+      },
+      {
+        "bybitSymbol": "BOMEUSDT",
+        "jupTokenID": "BOME",
+        "addy": "ukHH6c7mMyiWCf1b9pnWe25TSpkDDt3H5pQZgZ74J82",
+        "enabled": true,
+        "bybitSell": true,
+        "arbThreshold": 2,
+        "slippageBps": 50,
+        "pricePrecision": 5,
+        "orderSizePrecision": 1
+      },
+      {
+        "bybitSymbol": "WUSDT",
+        "jupTokenID": "W",
+        "addy": "85VBFQZC9TZkfaptBWjvUw7YbZjy52A6mjtPGjstQAmQ",
+        "enabled": true,
+        "bybitSell": true,
+        "arbThreshold": 1,
+        "slippageBps": 50,
+        "pricePrecision": 4,
+        "orderSizePrecision": 2
+      },
+      {
+        "bybitSymbol": "JUPUSDT",
+        "jupTokenID": "JUP",
+        "addy": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+        "enabled": true,
+        "bybitSell": true,
+        "arbThreshold": 1,
+        "slippageBps": 50,
+        "pricePrecision": 4,
+        "orderSizePrecision": 2
+      },
+      {
+        "bybitSymbol": "TNSRUSDT",
+        "jupTokenID": "TNSR",
+        "addy": "TNSRxcUxoT9xBG3de7PiJyTDYu7kskLqcpddxnEJAS6",
+        "enabled": true,
+        "bybitSell": false,
+        "arbThreshold": 2,
+        "slippageBps": 50,
+        "pricePrecision": 2,
+        "orderSizePrecision": 3
+      },
+      {
+        "bybitSymbol": "MEWUSDT",
+        "jupTokenID": "MEW",
+        "addy": "MEW1gQWJ3nEXg2qgERiKu7FAFj79PHvQVREQUzScPP5",
+        "enabled": true,
+        "bybitSell": false,
+        "arbThreshold": 2,
+        "slippageBps": 50,
+        "pricePrecision": 2,
+        "orderSizePrecision": 3
+      },
+      {
+        "bybitSymbol": "PYTHUSDT",
+        "jupTokenID": "PYTH",
+        "addy": "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
+        "enabled": true,
+        "bybitSell": true,
+        "arbThreshold": 1,
+        "slippageBps": 50,
+        "pricePrecision": 5,
+        "orderSizePrecision": 2
+      },
+      {
+        "bybitSymbol": "FIDAUSDT",
+        "jupTokenID": "FIDA",
+        "addy": "EchesyfXePKdLtoiZSL8pBe8Myagyy8ZRqsACNCFGnvp",
+        "enabled": true,
+        "bybitSell": false,
+        "arbThreshold": 2,
+        "slippageBps": 50,
+        "pricePrecision": 2,
+        "orderSizePrecision": 3
+      },
+      {
+        "bybitSymbol": "WIFUSDT",
+        "jupTokenID": "$WIF",
+        "addy": "EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm",
+        "enabled": true,
+        "bybitSell": false,
+        "arbThreshold": 2,
+        "slippageBps": 50,
+        "pricePrecision": 2,
+        "orderSizePrecision": 3
+      }
+    ]
+  }
+  
