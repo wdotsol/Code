@@ -1,0 +1,2 @@
+This is and old version of my jupiter vs bybit dual arbitrage bot. Automatically buys on Jup.ag and hedges on bybit if the arbitrage conditions have been met.
+For speed, I multithread different coins with javascript, Bybit is accessed through their API.
