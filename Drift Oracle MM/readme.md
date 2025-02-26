@@ -13,7 +13,7 @@ The bot's operation can be broken down into five main components:
 ### 2. Monitoring Loop
 
 - Once orders are placed, the bot continuously monitors for any changes in positions.
-- The loop ensures that any filled orders are detected quickly(1s) and that the bot can react accordingly.
+- The loop ensures that any filled orders are detected within 1 second.
 
 ### 3. Hedging with Spot Orders
 
