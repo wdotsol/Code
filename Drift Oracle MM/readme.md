@@ -1,7 +1,6 @@
 # Oracle-Based Market Making Bot on Drift
 
-This guide introduces a simple market maker bot for Drift that uses **oracle-based limit orders** to peg its quotes to an external price feed (PYTH). The bot's purpose is to continuously quote buy/sell orders around the oracle price and hedge any filled positions to remain market-neutral.
-This bot leverages Drift's oracle-based limit orders to dynamically adjust its quotes relative to the current oracle price. When one side of an order gets filled, the bot hedges the position by executing a spot order, ensuring that it stays delta-neutral.
+This guide introduces a simple market maker bot for Drift that uses **oracle-based limit orders** to peg its quotes to an external price feed (PYTH). The bot's purpose is to continuously quote buy/sell orders around the oracle price and hedge any filled positions to remain market-neutral. The bot hedges the position by executing an order on the opposing spot market.
 
 ## Core Functionality
 
