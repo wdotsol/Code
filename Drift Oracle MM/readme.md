@@ -43,7 +43,7 @@ npm install @drift-labs/sdk @solana/web3.js@1.92.3 dotenv
 *Keep in mind that v1.92.3 is used at the time of writing*
 
 ### Wallet setup
-You will need a wallet keypair in order to interact with Drift and place trades. For safety measures, loadKeypair is used to load a keypair from the .env file, however you could set the keypair directly in the code.
+You will need a wallet keypair in order to interact with Drift and place trades. For safety measures, ```loadKeypair``` is used to load a keypair from the .env file, however you could set the keypair directly in the code.
 
 ### RPC connection
 In order to interact with Solana, the bot needs an RPC endpoint. in this example the bot uses one from Helius, but you can use any Solana RPC provider. Set the RPC URL in the code or as an env variable in .env
