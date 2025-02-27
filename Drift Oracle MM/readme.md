@@ -38,8 +38,9 @@ To run the bot, you will need:
 
 Install the packages:
 ```bash
-npm install @drift-labs/sdk @solana/web3.js dotenv
+npm install @drift-labs/sdk @solana/web3.js@1.92.3 dotenv
 ```
+*Keep in mind that v1.92.3 is used at the time of writing*
 
 ### Wallet setup
 You will need a wallet keypair in order to interact with Drift and place trades. For safety measures, loadKeypair is used to load a keypair from the .env file, however you could set the keypair directly in the code.
