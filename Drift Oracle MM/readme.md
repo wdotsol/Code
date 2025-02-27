@@ -26,3 +26,54 @@ The bot's operation can be broken down into five main components:
 ### 5. Retry Mechanism for Order Placement
 
 - The bot implements a retry logic to handle any errors or network issues during order placement.
+
+## Bot setup
+
+### Dependencies
+To run the bot, you will need:
+- Node.js and Typescript
+- Drift SDK @drift-labs/sdk
+- Solana Web3.js
+- (Optional) dotevn, for managing environment variables
+
+Install the packages:
+```bash
+npm install @drift-labs/sdk @solana/web3.js dotenv
+```
+
+### Wallet setup
+You will need a wallet keypair in order to interact with Drift and place trades. For safety measures, loadKeypair is used to load a keypair from the .env file, however you could set the keypair directly in the code.
+
+### RPC connection
+In order to interact with Solana, the bot needs an RPC endpoint. in this example the bot uses one from Helius, but you can use any Solana RPC provider. Set the RPC URL in the code or as an env variable in .env
+
+### Drift client initialization
+After completing the above setup, the following code initializes the Drift SDK client.
+
+```
+import { Connection } from '@solana/web3.js';
+import { DriftClient, Wallet, loadKeypair } from '@drift-labs/sdk';
+
+const connection = new Connection("<YOUR_RPC_ENDPOINT>", "confirmed");
+const wallet = new Wallet(loadKeypair(process.env.PRIVATE_KEY!));
+const driftClient = new DriftClient({
+    connection,
+    wallet,
+    env: "mainnet-beta",    // or "devnet", depending on target environment
+    accountSubscription: { type: 'websocket' }
+});
+
+await driftClient.subscribe();
+console.log("Drift client subscribed!");
+```
+
+### Important remarks
+In the code, we use the market indices for Sol.
+
+```
+perpMarketIndex = 0; 
+spotMarketIndex = 1;
+```
+
+These correspond to the assets you want the bot to trade. Make sure you have the right indices, which can be found in the Drift documentation.
+
