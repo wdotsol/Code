@@ -33,7 +33,7 @@ The bot's operation can be broken down into five main components:
 To run the bot, you will need:
 - Node.js and Typescript
 - Drift SDK @drift-labs/sdk
-- Solana Web3.js
+- Solana Web3.js, v1.92.3
 - (Optional) dotevn, for managing environment variables
 
 Install the packages:
