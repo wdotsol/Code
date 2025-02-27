@@ -27,7 +27,7 @@ The bot's operation can be broken down into five main components:
 
 - The bot implements a retry logic to handle any errors or network issues during order placement.
 
-## Bot setup
+## Setting up the bot
 
 ### Dependencies
 To run the bot, you will need:
